@@ -25,6 +25,7 @@ function XPromise(promisseCallback) {
                     cb(data);
                     _this.ended = true;
                 }
+                return this;
             };
         }
     };
